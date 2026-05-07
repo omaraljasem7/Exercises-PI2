@@ -22,3 +22,20 @@ Geben Sie für **beiden** Scheduling-Verfahren folgende Informationen an:
 4. Die Anzahl der *Kontextwechsel* (Context Switches) vom Start bis zur Fertigstellung aller Prozesse.
 
 Vergleichen Sie die Ergebnisse beider Scheduling-Verfahren. Welche Eigenschaften (s. Vorlesung) priorisieren die Scheduling-Verfahren.
+
+![SJF](SJF.png)
+
+Formel : 
+Turnaround Time = Fertigstellungszeit-Ankunftszeit
+B = 5 -0 = 5 
+C = 8 - 3 = 5 
+A = 15 -0 = 15 
+E = 24 -0 = 24 
+D = 37 -0 = 37
+
+Waiting Time = Turnaroundtime -Rechenzeit 
+B = 5-5 = 0
+C = 5 - 3 = 2 
+A= 15 - 7 = 8 
+E = 24 - 9 = 15
+D = 37 - 13 = 24 
