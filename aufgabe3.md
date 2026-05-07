@@ -46,3 +46,37 @@ Kontextwechsel :
 + A -> E 
 + E -> D 
 #### hier gibt insgesamt 4 konttextwechsel zwischen den Prozessen 
+
+
+
+## hier ist die CPU Scheduling nach Round Roubing  
+![RR](RR.png)
+
+Formeln:
+Turnroundtime = Fertigstellungszeit - Ankunft 
+- A = 25 -0 =25 
+- B = 10 -0 = 10 
+- C = 23 -3 =20 
+- E = 34 - 0 = 34 
+- D = 37 -0 = 37 
+
+
+Waiting Time = Turnaroundtime - Rechenzeit
+
++ A = 25 - 7 = 18 
++ B = 10 - 5 = 5 
++ C = 20 - 3 = 17 
++ D =37- 13 = 24 
++ E = 34 - 9 = 25 
+
+Kontextwechsel:
++ A → B
++ B → D
++ D → E
++ E → C
++ C → A
++ A → D
++ D → E
++ E → D
+
+### insgessamt 8 Kontextwechsel zwischen den Prozessen 
