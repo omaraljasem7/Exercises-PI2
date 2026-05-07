@@ -27,15 +27,22 @@ Vergleichen Sie die Ergebnisse beider Scheduling-Verfahren. Welche Eigenschaften
 
 Formel : 
 Turnaround Time = Fertigstellungszeit-Ankunftszeit
-B = 5 -0 = 5 
-C = 8 - 3 = 5 
-A = 15 -0 = 15 
-E = 24 -0 = 24 
-D = 37 -0 = 37
+- B = 5 -0 = 5 
+- C = 8 - 3 = 5 
+- A = 15 -0 = 15 
++ E = 24 -0 = 24 
++ D = 37 -0 = 37
 
 Waiting Time = Turnaroundtime -Rechenzeit 
-B = 5-5 = 0
-C = 5 - 3 = 2 
-A= 15 - 7 = 8 
-E = 24 - 9 = 15
-D = 37 - 13 = 24 
+- B = 5-5 = 0
+- C = 5 - 3 = 2 
+- A= 15 - 7 = 8 
+- E = 24 - 9 = 15
+- D = 37 - 13 = 24 
+
+Kontextwechsel : 
++ B -> C
++ C -> A 
++ A -> E 
++ E -> D 
+#### hier gibt insgesamt 4 konttextwechsel zwischen den Prozessen 
